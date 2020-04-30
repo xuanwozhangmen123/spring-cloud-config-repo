@@ -11,4 +11,4 @@ eureka:
       defaultZone: http://localhost:${server.port}/eureka/ #多个通过英文逗号分隔
 
 server:
-  port: 8002
+  port: 8001
