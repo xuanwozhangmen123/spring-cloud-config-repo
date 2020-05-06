@@ -48,10 +48,10 @@ zuul:
       path: /route163
       url: http://www.163.com
     wx:
-      path: /wx/*
+      path: /wx/**
       url: forward:/wx
     admin:
-      path: /admin/*
+      path: /admin/**
       url: forward:/admin
 
 
