@@ -20,7 +20,6 @@ spring:
       time-between-eviction-runs-millis:  60000
       filters:  stat,wall
 
-
 server:
   port: 8010
 
