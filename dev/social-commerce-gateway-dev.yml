@@ -41,18 +41,15 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
 zuul:
   routes:
-    api-a: #配置路由
-      path: /test/**
-      url: forward:/source/hello #test开头的请求跳转到该接口
-    route163:
-      path: /route163
-      url: http://www.163.com
     wx:
       path: /wx/**
       url: forward:/wx
     admin:
       path: /admin/**
       url: forward:/admin
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
 
 
 
