@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://120.26.176.128:3306/social_commerce?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://120.26.176.128:3306/social_commerce?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false&autoReconnect=true
     username: sc12345
     password: sc12345
     driverclass-name: com.mysql.cj.jdbc.Driver
