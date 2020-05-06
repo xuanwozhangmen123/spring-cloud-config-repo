@@ -47,9 +47,6 @@ zuul:
     route163:
       path: /route163
       url: http://www.163.com
-    admin-goods-service:
-      path: /admin/goods/**
-      serviceId: admin-goods-service
     wx:
       path: /wx/*
       url: forward:/wx
