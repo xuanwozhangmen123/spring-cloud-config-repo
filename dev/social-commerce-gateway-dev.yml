@@ -41,12 +41,12 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
 zuul:
   routes:
-    wx:
-      path: /wx/**
-      url: forward:/wx
-    admin:
-      path: /admin/**
-      url: forward:/admin
+#    wx:
+#      path: /wx/**
+#      url: forward:/wx
+#    admin:
+#      path: /admin/**
+#      url: forward:/admin
         # 针对某个服务的配置，可自定义
 #    demo-order:
 #      path: /storage/**
