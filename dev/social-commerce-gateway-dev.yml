@@ -40,7 +40,7 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
 zuul:
-  routes:
+#  routes:
 #    wx:
 #      path: /wx/**
 #      url: forward:/wx
