@@ -48,12 +48,12 @@ zuul:
       path: /admin/**
       url: forward:/admin
         # 针对某个服务的配置，可自定义
-    demo-order:
-      path: /storage/**
-      serviceId: file-upload-service
-      stripPrefix: true
-          # 不向后端服务传递的敏感头信息
-#          sensitiveHeaders: Cookie,Set-Cookie,Authorization
+#    demo-order:
+#      path: /storage/**
+#      serviceId: file-upload-service
+#      stripPrefix: true
+#          # 不向后端服务传递的敏感头信息
+##          sensitiveHeaders: Cookie,Set-Cookie,Authorization
 ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
