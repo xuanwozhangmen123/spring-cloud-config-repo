@@ -49,7 +49,7 @@ zuul:
       url: forward:/admin
         # 针对某个服务的配置，可自定义
     demo-order:
-      path: /admin/storage/**
+      path: /storage/**
       serviceId: file-upload-service
       stripPrefix: true
           # 不向后端服务传递的敏感头信息
